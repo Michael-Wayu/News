@@ -16,36 +16,45 @@ a{
 h1{color: black;
     font-family: inherit;
     position:left ;
-    font-size: 150%;
+    font-size: 150%;}
 
-}
-    p{font-style: inherit;
+p{font-style: inherit;
     font-weight: 400px;
     color: rgb(104, 102, 100);
     font-size: 20px;
     text-align: center;
     text-align: justify;
+} 
 
-    }
-article{
+aside{
     background-color: black;
     color: white;
+    display: flex;
+    position: relative;
+
 }
 h2{
-    color:brown;
+    color:brown; 
 }
-.class-1{
+h4{color:var(--grayish-blue) ;
+font-size: 2 rem;}
+
+.class-3 .bottom-title .note{
+    color: var(--dark-gblue);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+/* .class-1{
     width: 30%;
     padding-left: 15px;
     float: right;
-}
-img{height:auto;
+} */
+/* img{height:auto;
     max-width: 65%;
     position:relative;
     left: 0%;
-    margin-left: auto;
+    margin-left: auto; */
 
-}
 .div-6{display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,6 +66,74 @@ button{background-color:hsl(5, 85%, 63%);
 .div-6 p{
     width: 75%;
 }
+.class-3{
+    display: flex;
+    justify-content: space-between;
+    grid-column: 3 span;
+    grid-row: 1 span;
+    gap: 1 rem;
+}
+.class-3 .bottom{display: flex;
+align-items: center;
+height: fit-content;}
+.class-3 .bottom .bottom-title{
+    color: var(--very-dblue);
+    font-size: 1rem;
+    font-weight: 800;
+}
+.class-3 .bottom img{width:6.7rem ;}
+.class-3 .bottom .note{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    margin-left: 1rem;
+    height:8.5rem;
+
+}
+.middle-part {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  .blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .info {
+    color: var(--dark-gblue);
+    width: 350px;
+    line-height: 1.5;}
+
+    /* styles.contents */
+    .contents{display: flex;}
+        /* div-1 */
+
+h1{ display: flex;
+    width:40% ; 
+    font-size: 40px;
+}
+.contents .cont-text .text{
+    display: flex;
+}
+.bright{
+    width: 50%;
+}
+.contents .cont-text img{width: 700px;
+    height:300px;
+
+}
+        /* div-2 */
+
+    .contents .news{
+        background-color: black;
+    }
+    .contents .news h4{ color: hsl(36, 100%, 99%);}
+    .contents .news p{ color:hsl(236, 13%, 42%);}
+    .contents .news h2{color: hsl(35, 77%, 62%)}
+    hr{color:hsl(236, 13%, 42%) ;}
+
+
 .mobile{display:none ;}
 
 @media screen and (max-width:375px){
@@ -68,6 +145,9 @@ a{display: none;
 
 }
     }
+    
+        
+
 
 
 
